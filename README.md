@@ -49,6 +49,10 @@ Use your MySQL username instead of `root` if needed. Add demo admin, staff, awar
 npm run setup:admin-demo --prefix server
 ```
 
+## GitHub Pages
+
+GitHub Pages serves the static frontend only. To rebuild the Pages files from the React app, run `npm run build:pages --prefix client` from the project root and commit the generated root `index.html`, `assets/`, and `favicon.svg`. Configure `VITE_API_URL` at build time to point to a separately hosted Express API if you want database-backed sign-in, reservations, pre-orders, and admin reports. GitHub Pages cannot host the Express server or MySQL database.
+
 To create upcoming demo reservations, run:
 
 ```powershell

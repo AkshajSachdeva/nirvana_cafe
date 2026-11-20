@@ -4,7 +4,7 @@ import { ArrowDownRight, ArrowRight, CalendarDays, Coffee, MapPin, Menu as MenuI
 import './styles.css';
 import './admin.css';
 
-const API = import.meta.env.VITE_API_URL || `http://${window.location.hostname || 'localhost'}:4000/api`;
+const API = import.meta.env.VITE_API_URL || (['localhost', '127.0.0.1'].includes(window.location.hostname) ? `http://${window.location.hostname}:4000/api` : '');
 const demoBranches = [
   { id: 1, name: 'Vasant Vihar', area: 'Vasant Vihar', address: 'Demo address, Vasant Vihar, Delhi NCR', description: 'A quiet neighborhood stop for coffee, tea, and a slow afternoon.', openingTime: '08:00:00', closingTime: '21:00:00' },
   { id: 2, name: 'Cyber City', area: 'Cyber City', address: 'Demo address, Cyber City, Delhi NCR', description: 'A relaxed cafe prototype branch near the Cyber City area.', openingTime: '08:00:00', closingTime: '22:00:00' },
@@ -18,6 +18,7 @@ function routeFromLocation() {
   return path === '/' || /^\/(cafes|reserve|peak-hour|waitlist|subscriptions|loyalty|account|login|register|admin|privacy|terms)(\/|$)/.test(path) ? path : '/';
 }
 async function api(path, options = {}) {
+  if (!API) throw new Error('This static website has no connected database API. Run the project locally with MySQL or configure a hosted API.');
   const response = await fetch(`${API}${path}`, { credentials: 'include', headers: { 'Content-Type': 'application/json', ...(options.headers || {}) }, ...options });
   const data = await response.json().catch(() => ({}));
   if (!response.ok) { const error = new Error(data.error || 'The request could not be completed.'); error.status = response.status; throw error; }
@@ -72,7 +73,7 @@ function App() {
       <nav className={mobileOpen ? 'main-nav open' : 'main-nav'} aria-label="Main navigation">{link('/cafes','Explore')}{link('/reserve','Book a table')}{link('/subscriptions','Subscriptions')}{link('/loyalty','Loyalty card')}{link('/admin','Admin portal')}{link(customer?'/account':'/login',customer ? 'My account' : 'Sign in', 'nav-account')}</nav>
     </header>
     {notice && <div role="status" className="global-notice">{notice}</div>}
-    {!apiReady && <div className="connection-note">Showing the branch directory from the local demo catalog. Connect MySQL and start the API to load database records and use account features.</div>}
+    {!apiReady && <div className="connection-note">{API ? 'Showing the branch directory from the local demo catalog. Connect MySQL and start the API to load database records and use account features.' : 'Static website preview: the database API is not hosted here. Browse the demo pages, or run the project locally with MySQL for sign-in, reservations, pre-orders, and admin reports.'}</div>}
     <main>{page}</main>
     <Footer link={link} />
   </div>;
