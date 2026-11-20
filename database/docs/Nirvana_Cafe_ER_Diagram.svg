@@ -1,0 +1,255 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="4600" height="3450" viewBox="0 0 4600 3450">
+<defs><filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#5b4535" flood-opacity=".12"/></filter></defs>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<text x="2300.0" y="65" text-anchor="middle" font-family="Arial,sans-serif" font-size="42" font-weight="700" fill="#35291f">NIRVANA CAFE</text>
+<text x="2300.0" y="105" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" fill="#685d54">Entity–Relationship Diagram · MySQL Reservation &amp; Cafe Management System</text>
+<text x="2300.0" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#796f67">PK = Primary Key · FK = Foreign Key · UQ = Unique · NULL = Optional · connector labels show min..max cardinality</text>
+<path d="M1721.1,369.0 L1598.9,831.0" fill="none" stroke="#e44e7e" stroke-width="2.5" stroke-opacity=".75"/>
+<path d="M1638.7,577.4 L1688.7,594.4 L1638.7,611.4 L1588.7,594.4 Z" fill="#ffe5ed" stroke="#e44e7e" stroke-width="2"/>
+<text x="1638.7" y="599.4" text-anchor="middle" font-family="Arial,sans-serif" font-size="13.5" fill="#342b25">Makes</text>
+<text x="1716.0" y="383.3" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">1</text>
+<text x="1604.0" y="806.7" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">0..N</text>
+<path d="M2189.6,1261.0 L1780.4,1049.0" fill="none" stroke="#e44e7e" stroke-width="2.5" stroke-opacity=".75"/>
+<path d="M1974.9,1157.5 L2025.9,1174.5 L1974.9,1191.5 L1923.9,1174.5 Z" fill="#ffe5ed" stroke="#e44e7e" stroke-width="2"/>
+<text x="1974.9" y="1179.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="13.5" fill="#342b25">Receives</text>
+<text x="2171.8" y="1246.8" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">1</text>
+<text x="1798.2" y="1053.2" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">0..N</text>
+<path d="M2640.0,1439.2 L3270.0,1620.8" fill="none" stroke="#73aa36" stroke-width="2.5" stroke-opacity=".75"/>
+<path d="M2948.9,1534.1 L3007.9,1551.1 L2948.9,1568.1 L2889.9,1551.1 Z" fill="#e9f6d5" stroke="#73aa36" stroke-width="2"/>
+<text x="2948.9" y="1556.1" text-anchor="middle" font-family="Arial,sans-serif" font-size="13.5" fill="#342b25">Has tables</text>
+<text x="2659.2" y="1439.7" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">1</text>
+<text x="3250.8" y="1610.3" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">0..N</text>
+<path d="M1711.6,1049.0 L2558.4,1701.0" fill="none" stroke="#e44e7e" stroke-width="2.5" stroke-opacity=".75"/>
+<path d="M2148.4,1340.6 L2231.4,1357.6 L2148.4,1374.6 L2065.4,1357.6 Z" fill="#ffe5ed" stroke="#e44e7e" stroke-width="2"/>
+<text x="2148.4" y="1362.6" text-anchor="middle" font-family="Arial,sans-serif" font-size="13.5" fill="#342b25">Assigned through</text>
+<text x="1727.4" y="1056.2" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">1</text>
+<text x="2542.6" y="1683.8" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">1..N</text>
+<path d="M3270.0,1725.6 L2940.0,1774.4" fill="none" stroke="#73aa36" stroke-width="2.5" stroke-opacity=".75"/>
+<path d="M3101.8,1711.2 L3176.8,1728.2 L3101.8,1745.2 L3026.8,1728.2 Z" fill="#e9f6d5" stroke="#73aa36" stroke-width="2"/>
+<text x="3101.8" y="1733.2" text-anchor="middle" font-family="Arial,sans-serif" font-size="13.5" fill="#342b25">Assigned table</text>
+<text x="3250.2" y="1723.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">1</text>
+<text x="2959.8" y="1766.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">0..N</text>
+<path d="M1510.0,363.7 L740.0,696.3" fill="none" stroke="#e44e7e" stroke-width="2.5" stroke-opacity=".75"/>
+<path d="M1133.7,533.2 L1183.7,550.2 L1133.7,567.2 L1083.7,550.2 Z" fill="#ffe5ed" stroke="#e44e7e" stroke-width="2"/>
+<text x="1133.7" y="555.2" text-anchor="middle" font-family="Arial,sans-serif" font-size="13.5" fill="#342b25">Joins</text>
+<text x="1491.6" y="366.6" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">1</text>
+<text x="758.4" y="683.4" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">0..N</text>
+<path d="M2160.0,1298.0 L740.0,872.0" fill="none" stroke="#e44e7e" stroke-width="2.5" stroke-opacity=".75"/>
+<path d="M1456.3,1046.9 L1523.3,1063.9 L1456.3,1080.9 L1389.3,1063.9 Z" fill="#ffe5ed" stroke="#e44e7e" stroke-width="2"/>
+<text x="1456.3" y="1068.9" text-anchor="middle" font-family="Arial,sans-serif" font-size="13.5" fill="#342b25">Has waitlist</text>
+<text x="2140.8" y="1287.3" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">1</text>
+<text x="759.2" y="872.7" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">0..N</text>
+<path d="M1673.5,369.0 L556.5,1961.0" fill="none" stroke="#e44e7e" stroke-width="2.5" stroke-opacity=".75"/>
+<path d="M1133.0,1160.6 L1183.0,1177.6 L1133.0,1194.6 L1083.0,1177.6 Z" fill="#ffe5ed" stroke="#e44e7e" stroke-width="2"/>
+<text x="1133.0" y="1182.6" text-anchor="middle" font-family="Arial,sans-serif" font-size="13.5" fill="#342b25">Writes</text>
+<text x="1662.0" y="380.4" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">1</text>
+<text x="568.0" y="1939.6" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">0..N</text>
+<path d="M2160.0,1457.5 L720.0,1982.5" fill="none" stroke="#73aa36" stroke-width="2.5" stroke-opacity=".75"/>
+<path d="M1432.5,1682.3 L1483.5,1699.3 L1432.5,1716.3 L1381.5,1699.3 Z" fill="#e9f6d5" stroke="#73aa36" stroke-width="2"/>
+<text x="1432.5" y="1704.3" text-anchor="middle" font-family="Arial,sans-serif" font-size="13.5" fill="#342b25">Receives</text>
+<text x="2141.2" y="1459.4" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">1</text>
+<text x="738.8" y="1970.6" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">0..N</text>
+<path d="M1464.9,1049.0 L585.1,1961.0" fill="none" stroke="#e44e7e" stroke-width="2.5" stroke-opacity=".75"/>
+<path d="M1040.8,1503.3 L1127.8,1520.3 L1040.8,1537.3 L953.8,1520.3 Z" fill="#ffe5ed" stroke="#e44e7e" stroke-width="2"/>
+<text x="1040.8" y="1525.3" text-anchor="middle" font-family="Arial,sans-serif" font-size="13.5" fill="#342b25">About reservation</text>
+<text x="1451.0" y="1058.4" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">0..N</text>
+<text x="599.0" y="1941.6" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">0..1</text>
+<path d="M1641.0,369.0 L569.0,1441.0" fill="none" stroke="#139e9a" stroke-width="2.5" stroke-opacity=".75"/>
+<path d="M1089.4,872.4 L1144.4,889.4 L1089.4,906.4 L1034.4,889.4 Z" fill="#dff4f4" stroke="#139e9a" stroke-width="2"/>
+<text x="1089.4" y="894.4" text-anchor="middle" font-family="Arial,sans-serif" font-size="13.5" fill="#342b25">Owns card</text>
+<text x="1626.9" y="378.1" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">1</text>
+<text x="583.1" y="1421.9" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">0..1</text>
+<path d="M508.9,1659.0 L891.1,2511.0" fill="none" stroke="#139e9a" stroke-width="2.5" stroke-opacity=".75"/>
+<path d="M720.1,2059.0 L803.1,2076.0 L720.1,2093.0 L637.1,2076.0 Z" fill="#dff4f4" stroke="#139e9a" stroke-width="2"/>
+<text x="720.1" y="2081.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="13.5" fill="#342b25">Has transactions</text>
+<text x="517.1" y="1672.2" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">1</text>
+<text x="882.9" y="2487.8" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">0..N</text>
+<path d="M1529.1,1049.0 L980.9,2511.0" fill="none" stroke="#139e9a" stroke-width="2.5" stroke-opacity=".75"/>
+<path d="M1234.4,1755.3 L1305.4,1772.3 L1234.4,1789.3 L1163.4,1772.3 Z" fill="#dff4f4" stroke="#139e9a" stroke-width="2"/>
+<text x="1234.4" y="1777.3" text-anchor="middle" font-family="Arial,sans-serif" font-size="13.5" fill="#342b25">Referenced by</text>
+<text x="1522.1" y="1062.7" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">0..N</text>
+<text x="987.9" y="2487.3" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">0..1</text>
+<path d="M1990.0,334.7 L2860.0,605.3" fill="none" stroke="#139e9a" stroke-width="2.5" stroke-opacity=".75"/>
+<path d="M2431.5,432.0 L2490.5,449.0 L2431.5,466.0 L2372.5,449.0 Z" fill="#dff4f4" stroke="#139e9a" stroke-width="2"/>
+<text x="2431.5" y="454.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="13.5" fill="#342b25">Subscribes</text>
+<text x="2009.1" y="335.6" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">1</text>
+<text x="2840.9" y="594.4" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">0..N</text>
+<path d="M3532.3,429.0 L3287.7,571.0" fill="none" stroke="#139e9a" stroke-width="2.5" stroke-opacity=".75"/>
+<path d="M3399.0,464.0 L3470.0,481.0 L3399.0,498.0 L3328.0,481.0 Z" fill="#dff4f4" stroke="#139e9a" stroke-width="2"/>
+<text x="3399.0" y="486.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="13.5" fill="#342b25">Selected plan</text>
+<text x="3515.0" y="434.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">1</text>
+<text x="3305.0" y="556.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">0..N</text>
+<path d="M2366.3,1479.0 L1973.7,2751.0" fill="none" stroke="#73aa36" stroke-width="2.5" stroke-opacity=".75"/>
+<path d="M2191.0,2104.5 L2250.0,2121.5 L2191.0,2138.5 L2132.0,2121.5 Z" fill="#e9f6d5" stroke="#73aa36" stroke-width="2"/>
+<text x="2191.0" y="2126.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="13.5" fill="#342b25">Lists menu</text>
+<text x="2360.4" y="1493.1" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">1</text>
+<text x="1979.6" y="2726.9" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">0..N</text>
+<path d="M1280.0,3116.7 L1700.0,2953.3" fill="none" stroke="#df922f" stroke-width="2.5" stroke-opacity=".75"/>
+<path d="M1498.0,3038.5 L1557.0,3055.5 L1498.0,3072.5 L1439.0,3055.5 Z" fill="#fff0d7" stroke="#df922f" stroke-width="2"/>
+<text x="1498.0" y="3060.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="13.5" fill="#342b25">Offered as</text>
+<text x="1298.6" y="3104.4" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">1</text>
+<text x="1681.4" y="2955.6" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">0..N</text>
+<path d="M640.0,3066.2 L800.0,3123.8" fill="none" stroke="#df922f" stroke-width="2.5" stroke-opacity=".75"/>
+<path d="M727.4,3057.3 L802.4,3074.3 L727.4,3091.3 L652.4,3074.3 Z" fill="#fff0d7" stroke="#df922f" stroke-width="2"/>
+<text x="727.4" y="3079.3" text-anchor="middle" font-family="Arial,sans-serif" font-size="13.5" fill="#342b25">Contains items</text>
+<text x="658.8" y="3068.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">1</text>
+<text x="781.2" y="3112.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">0..N</text>
+<path d="M1948.2,369.0 L2351.8,591.0" fill="none" stroke="#df922f" stroke-width="2.5" stroke-opacity=".75"/>
+<path d="M2139.4,482.3 L2189.4,499.3 L2139.4,516.3 L2089.4,499.3 Z" fill="#fff0d7" stroke="#df922f" stroke-width="2"/>
+<text x="2139.4" y="504.3" text-anchor="middle" font-family="Arial,sans-serif" font-size="13.5" fill="#342b25">Places</text>
+<text x="1965.7" y="373.6" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">0..N</text>
+<text x="2334.3" y="576.4" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">0..1</text>
+<path d="M2424.4,1261.0 L2525.6,809.0" fill="none" stroke="#73aa36" stroke-width="2.5" stroke-opacity=".75"/>
+<path d="M2453.5,1013.2 L2532.5,1030.2 L2453.5,1047.2 L2374.5,1030.2 Z" fill="#e9f6d5" stroke="#73aa36" stroke-width="2"/>
+<text x="2453.5" y="1035.2" text-anchor="middle" font-family="Arial,sans-serif" font-size="13.5" fill="#342b25">Receives orders</text>
+<text x="2428.8" y="1236.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">1</text>
+<text x="2521.2" y="823.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">0..N</text>
+<path d="M1810.0,881.2 L2310.0,758.8" fill="none" stroke="#e44e7e" stroke-width="2.5" stroke-opacity=".75"/>
+<path d="M2065.2,824.4 L2120.2,841.4 L2065.2,858.4 L2010.2,841.4 Z" fill="#ffe5ed" stroke="#e44e7e" stroke-width="2"/>
+<text x="2065.2" y="846.4" text-anchor="middle" font-family="Arial,sans-serif" font-size="13.5" fill="#342b25">Linked to</text>
+<text x="1829.4" y="871.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">0..N</text>
+<text x="2290.6" y="758.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">0..1</text>
+<path d="M3086.6,2451.0 L2583.4,809.0" fill="none" stroke="#9470d8" stroke-width="2.5" stroke-opacity=".75"/>
+<path d="M2814.0,1619.4 L2877.0,1636.4 L2814.0,1653.4 L2751.0,1636.4 Z" fill="#eee6ff" stroke="#9470d8" stroke-width="2"/>
+<text x="2814.0" y="1641.4" text-anchor="middle" font-family="Arial,sans-serif" font-size="13.5" fill="#342b25">Assigned to</text>
+<text x="3080.7" y="2426.9" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">0..N</text>
+<text x="2589.3" y="823.1" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">0..1</text>
+<path d="M2790.0,741.4 L3470.0,858.6" fill="none" stroke="#df922f" stroke-width="2.5" stroke-opacity=".75"/>
+<path d="M3126.3,804.7 L3177.3,821.7 L3126.3,838.7 L3075.3,821.7 Z" fill="#fff0d7" stroke="#df922f" stroke-width="2"/>
+<text x="3126.3" y="826.7" text-anchor="middle" font-family="Arial,sans-serif" font-size="13.5" fill="#342b25">Contains</text>
+<text x="2809.7" y="739.8" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">1</text>
+<text x="3450.3" y="850.2" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">0..N</text>
+<path d="M1166.0,3101.0 L3584.0,1009.0" fill="none" stroke="#df922f" stroke-width="2.5" stroke-opacity=".75"/>
+<path d="M2360.6,2021.4 L2419.6,2038.4 L2360.6,2055.4 L2301.6,2038.4 Z" fill="#fff0d7" stroke="#df922f" stroke-width="2"/>
+<text x="2360.6" y="2043.4" text-anchor="middle" font-family="Arial,sans-serif" font-size="13.5" fill="#342b25">References</text>
+<text x="1181.1" y="3082.9" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">1</text>
+<text x="3568.9" y="1017.1" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">0..N</text>
+<path d="M2593.6,1479.0 L3716.4,2111.0" fill="none" stroke="#9470d8" stroke-width="2.5" stroke-opacity=".75"/>
+<path d="M3144.2,1797.2 L3207.2,1814.2 L3144.2,1831.2 L3081.2,1814.2 Z" fill="#eee6ff" stroke="#9470d8" stroke-width="2"/>
+<text x="3144.2" y="1819.2" text-anchor="middle" font-family="Arial,sans-serif" font-size="13.5" fill="#342b25">Administers</text>
+<text x="2611.1" y="1483.8" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">0..N</text>
+<text x="3698.9" y="2096.2" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">0..1</text>
+<path d="M2465.9,1479.0 L3054.1,2451.0" fill="none" stroke="#9470d8" stroke-width="2.5" stroke-opacity=".75"/>
+<path d="M2778.8,1936.6 L2828.8,1953.6 L2778.8,1970.6 L2728.8,1953.6 Z" fill="#eee6ff" stroke="#9470d8" stroke-width="2"/>
+<text x="2778.8" y="1958.6" text-anchor="middle" font-family="Arial,sans-serif" font-size="13.5" fill="#342b25">Employs</text>
+<text x="2476.3" y="1491.1" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">1</text>
+<text x="3043.7" y="2428.9" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">0..N</text>
+<path d="M2506.9,1479.0 L3853.1,2851.0" fill="none" stroke="#9470d8" stroke-width="2.5" stroke-opacity=".75"/>
+<path d="M3164.3,2163.4 L3214.3,2180.4 L3164.3,2197.4 L3114.3,2180.4 Z" fill="#eee6ff" stroke="#9470d8" stroke-width="2"/>
+<text x="3164.3" y="2185.4" text-anchor="middle" font-family="Arial,sans-serif" font-size="13.5" fill="#342b25">Awards</text>
+<text x="2521.0" y="1488.3" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">1</text>
+<text x="3839.0" y="2831.7" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">0..N</text>
+<path d="M3348.9,2669.0 L3731.1,2851.0" fill="none" stroke="#9470d8" stroke-width="2.5" stroke-opacity=".75"/>
+<path d="M3549.5,2723.1 L3608.5,2740.1 L3549.5,2757.1 L3490.5,2740.1 Z" fill="#eee6ff" stroke="#9470d8" stroke-width="2"/>
+<text x="3549.5" y="2745.1" text-anchor="middle" font-family="Arial,sans-serif" font-size="13.5" fill="#342b25">Recognized</text>
+<text x="3367.0" y="2672.6" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">1</text>
+<text x="3713.0" y="2837.4" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#584e46" stroke="#fbfaf7" stroke-width="4" paint-order="stroke">0..N</text>
+<g filter="url(#shadow)"><rect x="1510.0" y="151.0" width="480" height="218" rx="8" fill="#fff" stroke="#139e9a" stroke-width="2.4"/><path d="M1518.0,151.0 h464 a8,8 0 0 1 8,8 v38 h-480 v-38 a8,8 0 0 1 8,-8z" fill="#dff4f4"/></g>
+<text x="1750" y="179.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#322923">CUSTOMERS</text>
+<text x="1528.0" y="223.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">PK customer_id</text>
+<text x="1528.0" y="254.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">full_name · email (UQ)</text>
+<text x="1528.0" y="285.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">password_hash · phone (NULL)</text>
+<text x="1528.0" y="316.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">is_demo · created_at</text>
+<g filter="url(#shadow)"><rect x="220.0" y="1441.0" width="480" height="218" rx="8" fill="#fff" stroke="#139e9a" stroke-width="2.4"/><path d="M228.0,1441.0 h464 a8,8 0 0 1 8,8 v38 h-480 v-38 a8,8 0 0 1 8,-8z" fill="#dff4f4"/></g>
+<text x="460" y="1469.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#322923">LOYALTY_CARDS</text>
+<text x="238.0" y="1513.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">PK loyalty_card_id</text>
+<text x="238.0" y="1544.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">FK/UQ customer_id</text>
+<text x="238.0" y="1575.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">points_balance · card_status</text>
+<text x="238.0" y="1606.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">created_at</text>
+<g filter="url(#shadow)"><rect x="700.0" y="2511.0" width="480" height="218" rx="8" fill="#fff" stroke="#139e9a" stroke-width="2.4"/><path d="M708.0,2511.0 h464 a8,8 0 0 1 8,8 v38 h-480 v-38 a8,8 0 0 1 8,-8z" fill="#dff4f4"/></g>
+<text x="940" y="2539.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#322923">LOYALTY_TRANSACTIONS</text>
+<text x="718.0" y="2583.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">PK loyalty_transaction_id</text>
+<text x="718.0" y="2614.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">FK loyalty_card_id</text>
+<text x="718.0" y="2645.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">FK reservation_id (NULL)</text>
+<text x="718.0" y="2676.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">points_change · type · description</text>
+<g filter="url(#shadow)"><rect x="3480.0" y="211.0" width="480" height="218" rx="8" fill="#fff" stroke="#139e9a" stroke-width="2.4"/><path d="M3488.0,211.0 h464 a8,8 0 0 1 8,8 v38 h-480 v-38 a8,8 0 0 1 8,-8z" fill="#dff4f4"/></g>
+<text x="3720" y="239.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#322923">SUBSCRIPTION_PLANS</text>
+<text x="3498.0" y="283.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">PK subscription_plan_id</text>
+<text x="3498.0" y="314.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">plan_name (UQ) · price</text>
+<text x="3498.0" y="345.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">billing_interval · benefits</text>
+<text x="3498.0" y="376.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">is_active</text>
+<g filter="url(#shadow)"><rect x="2860.0" y="571.0" width="480" height="218" rx="8" fill="#fff" stroke="#139e9a" stroke-width="2.4"/><path d="M2868.0,571.0 h464 a8,8 0 0 1 8,8 v38 h-480 v-38 a8,8 0 0 1 8,-8z" fill="#dff4f4"/></g>
+<text x="3100" y="599.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#322923">CUSTOMER_SUBSCRIPTIONS</text>
+<text x="2878.0" y="643.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">PK customer_subscription_id</text>
+<text x="2878.0" y="674.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">FK customer_id · FK plan_id</text>
+<text x="2878.0" y="705.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">status · started_at · ends_at (NULL)</text>
+<text x="2878.0" y="736.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">cancelled_at (NULL)</text>
+<g filter="url(#shadow)"><rect x="1330.0" y="831.0" width="480" height="218" rx="8" fill="#fff" stroke="#e44e7e" stroke-width="2.4"/><path d="M1338.0,831.0 h464 a8,8 0 0 1 8,8 v38 h-480 v-38 a8,8 0 0 1 8,-8z" fill="#ffe5ed"/></g>
+<text x="1570" y="859.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#322923">RESERVATIONS</text>
+<text x="1348.0" y="903.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">PK reservation_id · code (UQ)</text>
+<text x="1348.0" y="934.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">FK customer_id · FK branch_id</text>
+<text x="1348.0" y="965.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">reservation_date · start_time · end_time</text>
+<text x="1348.0" y="996.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">party_size · status · is_demo</text>
+<g filter="url(#shadow)"><rect x="2460.0" y="1701.0" width="480" height="218" rx="8" fill="#fff" stroke="#e44e7e" stroke-width="2.4"/><path d="M2468.0,1701.0 h464 a8,8 0 0 1 8,8 v38 h-480 v-38 a8,8 0 0 1 8,-8z" fill="#ffe5ed"/></g>
+<text x="2700" y="1729.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#322923">RESERVATION_TABLES</text>
+<text x="2478.0" y="1773.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">PK/FK reservation_id</text>
+<text x="2478.0" y="1804.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">PK/FK table_id</text>
+<text x="2478.0" y="1835.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">assigned_at</text>
+<text x="2478.0" y="1866.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">Composite primary key</text>
+<g filter="url(#shadow)"><rect x="260.0" y="691.0" width="480" height="218" rx="8" fill="#fff" stroke="#e44e7e" stroke-width="2.4"/><path d="M268.0,691.0 h464 a8,8 0 0 1 8,8 v38 h-480 v-38 a8,8 0 0 1 8,-8z" fill="#ffe5ed"/></g>
+<text x="500" y="719.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#322923">WAITLIST_ENTRIES</text>
+<text x="278.0" y="763.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">PK waitlist_id</text>
+<text x="278.0" y="794.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">FK customer_id · FK branch_id</text>
+<text x="278.0" y="825.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">requested_date · requested_time</text>
+<text x="278.0" y="856.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">party_size · status</text>
+<g filter="url(#shadow)"><rect x="240.0" y="1961.0" width="480" height="218" rx="8" fill="#fff" stroke="#e44e7e" stroke-width="2.4"/><path d="M248.0,1961.0 h464 a8,8 0 0 1 8,8 v38 h-480 v-38 a8,8 0 0 1 8,-8z" fill="#ffe5ed"/></g>
+<text x="480" y="1989.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#322923">FEEDBACK</text>
+<text x="258.0" y="2033.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">PK feedback_id</text>
+<text x="258.0" y="2064.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">FK customer_id · FK branch_id</text>
+<text x="258.0" y="2095.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">FK reservation_id (NULL)</text>
+<text x="258.0" y="2126.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">rating · comments (NULL) · status</text>
+<g filter="url(#shadow)"><rect x="2160.0" y="1261.0" width="480" height="218" rx="8" fill="#fff" stroke="#73aa36" stroke-width="2.4"/><path d="M2168.0,1261.0 h464 a8,8 0 0 1 8,8 v38 h-480 v-38 a8,8 0 0 1 8,-8z" fill="#e9f6d5"/></g>
+<text x="2400" y="1289.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#322923">CAFE_BRANCHES</text>
+<text x="2178.0" y="1333.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">PK branch_id · branch_name (UQ)</text>
+<text x="2178.0" y="1364.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">area_name · address · description</text>
+<text x="2178.0" y="1395.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">opening_time · closing_time</text>
+<text x="2178.0" y="1426.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">is_active</text>
+<g filter="url(#shadow)"><rect x="3270.0" y="1581.0" width="480" height="218" rx="8" fill="#fff" stroke="#73aa36" stroke-width="2.4"/><path d="M3278.0,1581.0 h464 a8,8 0 0 1 8,8 v38 h-480 v-38 a8,8 0 0 1 8,-8z" fill="#e9f6d5"/></g>
+<text x="3510" y="1609.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#322923">CAFE_TABLES</text>
+<text x="3288.0" y="1653.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">PK table_id · FK branch_id</text>
+<text x="3288.0" y="1684.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">table_code · capacity · is_active</text>
+<text x="3288.0" y="1715.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">UQ (branch_id, table_code)</text>
+<g filter="url(#shadow)"><rect x="1700.0" y="2751.0" width="480" height="218" rx="8" fill="#fff" stroke="#73aa36" stroke-width="2.4"/><path d="M1708.0,2751.0 h464 a8,8 0 0 1 8,8 v38 h-480 v-38 a8,8 0 0 1 8,-8z" fill="#e9f6d5"/></g>
+<text x="1940" y="2779.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#322923">BRANCH_MENU</text>
+<text x="1718.0" y="2823.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">PK branch_menu_id · FK branch_id</text>
+<text x="1718.0" y="2854.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">FK menu_item_id</text>
+<text x="1718.0" y="2885.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">price · is_available</text>
+<text x="1718.0" y="2916.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">UQ (branch_id, menu_item_id)</text>
+<g filter="url(#shadow)"><rect x="3670.0" y="2111.0" width="480" height="218" rx="8" fill="#fff" stroke="#9470d8" stroke-width="2.4"/><path d="M3678.0,2111.0 h464 a8,8 0 0 1 8,8 v38 h-480 v-38 a8,8 0 0 1 8,-8z" fill="#eee6ff"/></g>
+<text x="3910" y="2139.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#322923">ADMIN_USERS</text>
+<text x="3688.0" y="2183.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">PK admin_id · email (UQ)</text>
+<text x="3688.0" y="2214.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">FK branch_id (NULL for super admin)</text>
+<text x="3688.0" y="2245.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">full_name · role · is_active</text>
+<g filter="url(#shadow)"><rect x="2880.0" y="2451.0" width="480" height="218" rx="8" fill="#fff" stroke="#9470d8" stroke-width="2.4"/><path d="M2888.0,2451.0 h464 a8,8 0 0 1 8,8 v38 h-480 v-38 a8,8 0 0 1 8,-8z" fill="#eee6ff"/></g>
+<text x="3120" y="2479.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#322923">STAFF_MEMBERS</text>
+<text x="2898.0" y="2523.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">PK staff_id · FK branch_id</text>
+<text x="2898.0" y="2554.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">full_name · job_title · email (UQ)</text>
+<text x="2898.0" y="2585.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">is_active</text>
+<g filter="url(#shadow)"><rect x="3720.0" y="2851.0" width="480" height="218" rx="8" fill="#fff" stroke="#9470d8" stroke-width="2.4"/><path d="M3728.0,2851.0 h464 a8,8 0 0 1 8,8 v38 h-480 v-38 a8,8 0 0 1 8,-8z" fill="#eee6ff"/></g>
+<text x="3960" y="2879.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#322923">STAFF_MONTH_AWARDS</text>
+<text x="3738.0" y="2923.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">PK award_id · FK branch_id</text>
+<text x="3738.0" y="2954.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">FK staff_id · month_start</text>
+<text x="3738.0" y="2985.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">reason · is_demo</text>
+<text x="3738.0" y="3016.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">UQ (branch_id, month_start)</text>
+<g filter="url(#shadow)"><rect x="160.0" y="2871.0" width="480" height="218" rx="8" fill="#fff" stroke="#df922f" stroke-width="2.4"/><path d="M168.0,2871.0 h464 a8,8 0 0 1 8,8 v38 h-480 v-38 a8,8 0 0 1 8,-8z" fill="#fff0d7"/></g>
+<text x="400" y="2899.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#322923">MENU_CATEGORIES</text>
+<text x="178.0" y="2943.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">PK category_id · category_name (UQ)</text>
+<text x="178.0" y="2974.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">display_order</text>
+<g filter="url(#shadow)"><rect x="800.0" y="3101.0" width="480" height="218" rx="8" fill="#fff" stroke="#df922f" stroke-width="2.4"/><path d="M808.0,3101.0 h464 a8,8 0 0 1 8,8 v38 h-480 v-38 a8,8 0 0 1 8,-8z" fill="#fff0d7"/></g>
+<text x="1040" y="3129.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#322923">MENU_ITEMS</text>
+<text x="818.0" y="3173.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">PK menu_item_id · FK category_id</text>
+<text x="818.0" y="3204.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">item_name · description</text>
+<text x="818.0" y="3235.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">is_active · UQ (category_id, item_name)</text>
+<g filter="url(#shadow)"><rect x="2310.0" y="591.0" width="480" height="218" rx="8" fill="#fff" stroke="#df922f" stroke-width="2.4"/><path d="M2318.0,591.0 h464 a8,8 0 0 1 8,8 v38 h-480 v-38 a8,8 0 0 1 8,-8z" fill="#fff0d7"/></g>
+<text x="2550" y="619.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#322923">CUSTOMER_ORDERS</text>
+<text x="2328.0" y="663.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">PK order_id · FK customer_id (NULL)</text>
+<text x="2328.0" y="694.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">FK branch_id · reservation_id (NULL)</text>
+<text x="2328.0" y="725.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">FK assigned_staff_id (NULL)</text>
+<text x="2328.0" y="756.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">order_date · time · status · total_amount</text>
+<g filter="url(#shadow)"><rect x="3470.0" y="791.0" width="480" height="218" rx="8" fill="#fff" stroke="#df922f" stroke-width="2.4"/><path d="M3478.0,791.0 h464 a8,8 0 0 1 8,8 v38 h-480 v-38 a8,8 0 0 1 8,-8z" fill="#fff0d7"/></g>
+<text x="3710" y="819.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#322923">CUSTOMER_ORDER_ITEMS</text>
+<text x="3488.0" y="863.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">PK order_item_id · FK order_id</text>
+<text x="3488.0" y="894.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">FK menu_item_id</text>
+<text x="3488.0" y="925.0" font-family="Arial,sans-serif" font-size="15.5" fill="#514941">quantity · unit_price</text>
+<text x="60" y="3412" font-family="Arial,sans-serif" font-size="15" fill="#766b62">RESERVATION_TABLES resolves the many-to-many reservation/table assignment. BRANCH_MENU stores branch-specific prices; CUSTOMER_ORDER_ITEMS stores ordered quantities and price snapshots.</text>
+</svg>
